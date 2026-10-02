@@ -1,0 +1,3379 @@
+{
+  "cohort_summary": {
+    "test_total": 92,
+    "dementia_count": 22,
+    "cn_count": 70,
+    "source": "ADNI1 Binary Held-Out Test Split (n=92)"
+  },
+  "caveat": "Computed on a small held-out test set (n=92); do not tune thresholds on this data.",
+  "operating_points": [
+    {
+      "threshold": 0.01,
+      "tp": 22,
+      "fp": 70,
+      "tn": 0,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.0,
+      "specificity_ci95": [
+        0.0,
+        0.052
+      ],
+      "ppv": 0.2391,
+      "ppv_ci95": [
+        0.1636,
+        0.3356
+      ],
+      "npv": 0.0,
+      "npv_ci95": [
+        0.0,
+        0.0
+      ],
+      "fpr": 1.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.02,
+      "tp": 22,
+      "fp": 70,
+      "tn": 0,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.0,
+      "specificity_ci95": [
+        0.0,
+        0.052
+      ],
+      "ppv": 0.2391,
+      "ppv_ci95": [
+        0.1636,
+        0.3356
+      ],
+      "npv": 0.0,
+      "npv_ci95": [
+        0.0,
+        0.0
+      ],
+      "fpr": 1.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.03,
+      "tp": 22,
+      "fp": 63,
+      "tn": 7,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.1,
+      "specificity_ci95": [
+        0.0493,
+        0.1923
+      ],
+      "ppv": 0.2588,
+      "ppv_ci95": [
+        0.1776,
+        0.3609
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.6457,
+        1.0
+      ],
+      "fpr": 0.9,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.04,
+      "tp": 22,
+      "fp": 45,
+      "tn": 25,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.3571,
+      "specificity_ci95": [
+        0.255,
+        0.4741
+      ],
+      "ppv": 0.3284,
+      "ppv_ci95": [
+        0.2279,
+        0.4474
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.8668,
+        1.0
+      ],
+      "fpr": 0.6429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.05,
+      "tp": 22,
+      "fp": 42,
+      "tn": 28,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.4,
+      "specificity_ci95": [
+        0.2933,
+        0.5171
+      ],
+      "ppv": 0.3438,
+      "ppv_ci95": [
+        0.2392,
+        0.466
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.8794,
+        1.0
+      ],
+      "fpr": 0.6,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.06,
+      "tp": 22,
+      "fp": 27,
+      "tn": 43,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.6143,
+      "specificity_ci95": [
+        0.4972,
+        0.7195
+      ],
+      "ppv": 0.449,
+      "ppv_ci95": [
+        0.3185,
+        0.5868
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.918,
+        1.0
+      ],
+      "fpr": 0.3857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.07,
+      "tp": 22,
+      "fp": 20,
+      "tn": 50,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.7143,
+      "specificity_ci95": [
+        0.5995,
+        0.8068
+      ],
+      "ppv": 0.5238,
+      "ppv_ci95": [
+        0.3772,
+        0.6664
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9287,
+        1.0
+      ],
+      "fpr": 0.2857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.08,
+      "tp": 22,
+      "fp": 18,
+      "tn": 52,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.7429,
+      "specificity_ci95": [
+        0.6297,
+        0.8307
+      ],
+      "ppv": 0.55,
+      "ppv_ci95": [
+        0.3983,
+        0.6929
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9312,
+        1.0
+      ],
+      "fpr": 0.2571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.09,
+      "tp": 22,
+      "fp": 16,
+      "tn": 54,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.7714,
+      "specificity_ci95": [
+        0.6605,
+        0.8541
+      ],
+      "ppv": 0.5789,
+      "ppv_ci95": [
+        0.4219,
+        0.7215
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9336,
+        1.0
+      ],
+      "fpr": 0.2286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.1,
+      "tp": 22,
+      "fp": 11,
+      "tn": 59,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.8429,
+      "specificity_ci95": [
+        0.7401,
+        0.9099
+      ],
+      "ppv": 0.6667,
+      "ppv_ci95": [
+        0.4961,
+        0.8025
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9389,
+        1.0
+      ],
+      "fpr": 0.1571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.11,
+      "tp": 22,
+      "fp": 9,
+      "tn": 61,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.8714,
+      "specificity_ci95": [
+        0.7734,
+        0.9309
+      ],
+      "ppv": 0.7097,
+      "ppv_ci95": [
+        0.5341,
+        0.839
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9408,
+        1.0
+      ],
+      "fpr": 0.1286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.12,
+      "tp": 22,
+      "fp": 6,
+      "tn": 64,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9143,
+      "specificity_ci95": [
+        0.8253,
+        0.9601
+      ],
+      "ppv": 0.7857,
+      "ppv_ci95": [
+        0.6046,
+        0.8979
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9434,
+        1.0
+      ],
+      "fpr": 0.0857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.13,
+      "tp": 22,
+      "fp": 6,
+      "tn": 64,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9143,
+      "specificity_ci95": [
+        0.8253,
+        0.9601
+      ],
+      "ppv": 0.7857,
+      "ppv_ci95": [
+        0.6046,
+        0.8979
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9434,
+        1.0
+      ],
+      "fpr": 0.0857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.14,
+      "tp": 22,
+      "fp": 5,
+      "tn": 65,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9286,
+      "specificity_ci95": [
+        0.8434,
+        0.9691
+      ],
+      "ppv": 0.8148,
+      "ppv_ci95": [
+        0.633,
+        0.9182
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9442,
+        1.0
+      ],
+      "fpr": 0.0714,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "tp": 22,
+      "fp": 4,
+      "tn": 66,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9429,
+      "specificity_ci95": [
+        0.8621,
+        0.9776
+      ],
+      "ppv": 0.8462,
+      "ppv_ci95": [
+        0.6647,
+        0.9385
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.945,
+        1.0
+      ],
+      "fpr": 0.0571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.16,
+      "tp": 22,
+      "fp": 4,
+      "tn": 66,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9429,
+      "specificity_ci95": [
+        0.8621,
+        0.9776
+      ],
+      "ppv": 0.8462,
+      "ppv_ci95": [
+        0.6647,
+        0.9385
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.945,
+        1.0
+      ],
+      "fpr": 0.0571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.17,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.18,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.19,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.21,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.22,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.23,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.24,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "tp": 22,
+      "fp": 3,
+      "tn": 67,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9571,
+      "specificity_ci95": [
+        0.8814,
+        0.9853
+      ],
+      "ppv": 0.88,
+      "ppv_ci95": [
+        0.7004,
+        0.9583
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9458,
+        1.0
+      ],
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.26,
+      "tp": 22,
+      "fp": 2,
+      "tn": 68,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9714,
+      "specificity_ci95": [
+        0.9017,
+        0.9921
+      ],
+      "ppv": 0.9167,
+      "ppv_ci95": [
+        0.7415,
+        0.9768
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9465,
+        1.0
+      ],
+      "fpr": 0.0286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.27,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.28,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.29,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.31,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.32,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.33,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.34,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.36,
+      "tp": 22,
+      "fp": 1,
+      "tn": 69,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 0.9857,
+      "specificity_ci95": [
+        0.9234,
+        0.9975
+      ],
+      "ppv": 0.9565,
+      "ppv_ci95": [
+        0.7901,
+        0.9923
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.9473,
+        1.0
+      ],
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.37,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.38,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.39,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.41,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.42,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.43,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.44,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.46,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.47,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.48,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.49,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.51,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.52,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.53,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.54,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.56,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.57,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.58,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.59,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.61,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.62,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.63,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.64,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.66,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.67,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.68,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.69,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.71,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.72,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.73,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.74,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.76,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.77,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.78,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.79,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.81,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.82,
+      "tp": 22,
+      "fp": 0,
+      "tn": 70,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "sensitivity_ci95": [
+        0.8513,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8513,
+        1.0
+      ],
+      "npv": 1.0,
+      "npv_ci95": [
+        0.948,
+        1.0
+      ],
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.83,
+      "tp": 21,
+      "fp": 0,
+      "tn": 70,
+      "fn": 1,
+      "sensitivity": 0.9545,
+      "sensitivity_ci95": [
+        0.782,
+        0.9919
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8454,
+        1.0
+      ],
+      "npv": 0.9859,
+      "npv_ci95": [
+        0.9244,
+        0.9975
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.84,
+      "tp": 21,
+      "fp": 0,
+      "tn": 70,
+      "fn": 1,
+      "sensitivity": 0.9545,
+      "sensitivity_ci95": [
+        0.782,
+        0.9919
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8454,
+        1.0
+      ],
+      "npv": 0.9859,
+      "npv_ci95": [
+        0.9244,
+        0.9975
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.85,
+      "tp": 21,
+      "fp": 0,
+      "tn": 70,
+      "fn": 1,
+      "sensitivity": 0.9545,
+      "sensitivity_ci95": [
+        0.782,
+        0.9919
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8454,
+        1.0
+      ],
+      "npv": 0.9859,
+      "npv_ci95": [
+        0.9244,
+        0.9975
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.86,
+      "tp": 21,
+      "fp": 0,
+      "tn": 70,
+      "fn": 1,
+      "sensitivity": 0.9545,
+      "sensitivity_ci95": [
+        0.782,
+        0.9919
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8454,
+        1.0
+      ],
+      "npv": 0.9859,
+      "npv_ci95": [
+        0.9244,
+        0.9975
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.87,
+      "tp": 21,
+      "fp": 0,
+      "tn": 70,
+      "fn": 1,
+      "sensitivity": 0.9545,
+      "sensitivity_ci95": [
+        0.782,
+        0.9919
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8454,
+        1.0
+      ],
+      "npv": 0.9859,
+      "npv_ci95": [
+        0.9244,
+        0.9975
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.88,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.89,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.9,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.91,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.92,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.93,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.94,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.95,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.96,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.97,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.98,
+      "tp": 20,
+      "fp": 0,
+      "tn": 70,
+      "fn": 2,
+      "sensitivity": 0.9091,
+      "sensitivity_ci95": [
+        0.7219,
+        0.9747
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8389,
+        1.0
+      ],
+      "npv": 0.9722,
+      "npv_ci95": [
+        0.9043,
+        0.9923
+      ],
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.99,
+      "tp": 18,
+      "fp": 0,
+      "tn": 70,
+      "fn": 4,
+      "sensitivity": 0.8182,
+      "sensitivity_ci95": [
+        0.6148,
+        0.9269
+      ],
+      "specificity": 1.0,
+      "specificity_ci95": [
+        0.948,
+        1.0
+      ],
+      "ppv": 1.0,
+      "ppv_ci95": [
+        0.8241,
+        1.0
+      ],
+      "npv": 0.9459,
+      "npv_ci95": [
+        0.8691,
+        0.9788
+      ],
+      "fpr": 0.0,
+      "tpr": 0.8182
+    }
+  ],
+  "roc_curve": [
+    {
+      "threshold": 0.01,
+      "fpr": 1.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.02,
+      "fpr": 1.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.03,
+      "fpr": 0.9,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.04,
+      "fpr": 0.6429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.05,
+      "fpr": 0.6,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.06,
+      "fpr": 0.3857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.07,
+      "fpr": 0.2857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.08,
+      "fpr": 0.2571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.09,
+      "fpr": 0.2286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.1,
+      "fpr": 0.1571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.11,
+      "fpr": 0.1286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.12,
+      "fpr": 0.0857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.13,
+      "fpr": 0.0857,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.14,
+      "fpr": 0.0714,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "fpr": 0.0571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.16,
+      "fpr": 0.0571,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.17,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.18,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.19,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.21,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.22,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.23,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.24,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "fpr": 0.0429,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.26,
+      "fpr": 0.0286,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.27,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.28,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.29,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.31,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.32,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.33,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.34,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.36,
+      "fpr": 0.0143,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.37,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.38,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.39,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.41,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.42,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.43,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.44,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.46,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.47,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.48,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.49,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.51,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.52,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.53,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.54,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.56,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.57,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.58,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.59,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.61,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.62,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.63,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.64,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.66,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.67,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.68,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.69,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.71,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.72,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.73,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.74,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.76,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.77,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.78,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.79,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.81,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.82,
+      "fpr": 0.0,
+      "tpr": 1.0
+    },
+    {
+      "threshold": 0.83,
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.84,
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.85,
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.86,
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.87,
+      "fpr": 0.0,
+      "tpr": 0.9545
+    },
+    {
+      "threshold": 0.88,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.89,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.9,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.91,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.92,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.93,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.94,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.95,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.96,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.97,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.98,
+      "fpr": 0.0,
+      "tpr": 0.9091
+    },
+    {
+      "threshold": 0.99,
+      "fpr": 0.0,
+      "tpr": 0.8182
+    }
+  ]
+}

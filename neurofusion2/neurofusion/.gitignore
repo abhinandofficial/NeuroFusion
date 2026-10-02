@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Raw MRI Scans and Sensitive Data (Do not commit external ADNI patient data)
+*.nii
+*.nii.gz
+!backend/samples/*.nii.gz
+raw_data/
+*.h5
+*.npy
+
+# Temporary files & Logs
+tmp/
+temp/
+*.log

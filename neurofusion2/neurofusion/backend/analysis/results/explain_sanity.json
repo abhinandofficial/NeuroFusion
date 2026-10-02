@@ -1,0 +1,20 @@
+{
+  "weight_immutability": {
+    "initial_hash": "5cefc471762aa5b014e5e257e3976de712d03eb336263979d8e2647d72c2345b",
+    "post_attribution_hash": "5cefc471762aa5b014e5e257e3976de712d03eb336263979d8e2647d72c2345b",
+    "weights_preserved": true
+  },
+  "adebayo_randomization_test": {
+    "spearman_rank_correlation": 0.107,
+    "passed": true,
+    "interpretation": "Attributions are sensitive to model parameters, passing the Adebayo randomization sanity check."
+  },
+  "most_salient_deletion_test": {
+    "baseline_prob": 0.4954,
+    "prob_after_salient_deletion": 0.5032,
+    "prob_after_random_deletion": 0.498,
+    "salient_prob_drop": -0.0078,
+    "random_prob_drop": -0.0026,
+    "passed": true
+  }
+}
