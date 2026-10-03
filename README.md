@@ -4,17 +4,17 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&amp;logo=python\&amp;logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\\\&amp;logo=python\\\&amp;logoColor=white" alt="Python"/>
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&amp;logo=pytorch\&amp;logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\\\&amp;logo=pytorch\\\&amp;logoColor=white" alt="PyTorch"/>
 
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&amp;logo=fastapi\&amp;logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\\\&amp;logo=fastapi\\\&amp;logoColor=white" alt="FastAPI"/>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge\&amp;logo=react\&amp;logoColor=61DAFB" alt="React"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge\\\&amp;logo=react\\\&amp;logoColor=61DAFB" alt="React"/>
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&amp;logo=typescript\&amp;logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\\\&amp;logo=typescript\\\&amp;logoColor=white" alt="TypeScript"/>
 
-<img src="https://img.shields.io/badge/three.js-000000?style=for-the-badge\&amp;logo=threedotjs\&amp;logoColor=white" alt="Three.js"/>
+<img src="https://img.shields.io/badge/three.js-000000?style=for-the-badge\\\&amp;logo=threedotjs\\\&amp;logoColor=white" alt="Three.js"/>
 
 <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="License"/>
 
@@ -24,8 +24,8 @@
 
 <br/>
 
-> \\\[!WARNING]
-> \\\*\\\*Research prototype, not a medical device.\\\*\\\* NeuroFusion must not be used for diagnosis, treatment, or any clinical decision.
+> \\\\\\\[!WARNING]
+> \\\\\\\*\\\\\\\*Research prototype, not a medical device.\\\\\\\*\\\\\\\* NeuroFusion must not be used for diagnosis, treatment, or any clinical decision.
 
 <!-- TODO: add a screenshot or demo GIF here -->
 
@@ -86,8 +86,8 @@ Evaluated on a single held-out ADNI test split (**n = 92**: 70 CN, 22 dementia).
   <img src="docs/ablation.svg" alt="Ablation study AUC chart" width="85%"/>
 </p>
 
-> \\\[!IMPORTANT]
-> \\\*\\\*Key finding:\\\*\\\* clinical scores do most of the work. A simple model on MMSE, CDRSB, and demographics alone matches the full multimodal model on this split, and the imaging contribution is modest. Confidence intervals are wide because the test set is small.
+> \\\\\\\[!IMPORTANT]
+> \\\\\\\*\\\\\\\*Key finding:\\\\\\\*\\\\\\\* clinical scores do most of the work. A simple model on MMSE, CDRSB, and demographics alone matches the full multimodal model on this split, and the imaging contribution is modest. Confidence intervals are wide because the test set is small.
 
 \---
 
@@ -99,10 +99,10 @@ Evaluated on a single held-out ADNI test split (**n = 92**: 70 CN, 22 dementia).
 
 ```mermaid
 flowchart LR
-    A\\\[Upload T1 MRI<br/>+ clinical values] --> B\\\[Preprocess<br/>RAS · resize 128³ · normalize]
-    B --> C\\\[Fused model<br/>inference]
-    C --> D\\\[Probabilities<br/>+ risk tier]
-    D --> E\\\[Explore<br/>3-plane + 3D viewer<br/>what-if sliders]
+    A\\\\\\\[Upload T1 MRI<br/>+ clinical values] --> B\\\\\\\[Preprocess<br/>RAS · resize 128³ · normalize]
+    B --> C\\\\\\\[Fused model<br/>inference]
+    C --> D\\\\\\\[Probabilities<br/>+ risk tier]
+    D --> E\\\\\\\[Explore<br/>3-plane + 3D viewer<br/>what-if sliders]
     style A fill:#ecfdf5,stroke:#10b981
     style C fill:#dbeafe,stroke:#2563eb
     style D fill:#ecfdf5,stroke:#10b981
@@ -132,20 +132,20 @@ flowchart LR
 - 🗺 Representation map of learned features
 - ⏳ Temporal risk projection (12 / 24 / 36 months, labeled as a projection)
 
-\\---
+\\\\---
 
 ## 🗂 Data
 
 |||
 |-|-|
-|\*\*Dataset\*\*|\[ADNI](https://adni.loni.usc.edu/) (ADNI1): 559 subjects, 330 in the CN vs Dementia subset|
-|\*\*Scans\*\*|T1-weighted MPRAGE, baseline visit, NIfTI|
-|\*\*Preprocessing\*\*|RAS orientation, resize to 128³, intensity normalization (nibabel + MONAI)|
+|\\\*\\\*Dataset\\\*\\\*|\\\[ADNI](https://adni.loni.usc.edu/) (ADNI1): 559 subjects, 330 in the CN vs Dementia subset|
+|\\\*\\\*Scans\\\*\\\*|T1-weighted MPRAGE, baseline visit, NIfTI|
+|\\\*\\\*Preprocessing\\\*\\\*|RAS orientation, resize to 128³, intensity normalization (nibabel + MONAI)|
 
-> \\\[!NOTE]
-> \\\*\\\*ADNI data is not included in this repository.\\\*\\\* See \\\[`DATA.md`](DATA.md) for how to request access.
+> \\\\\\\[!NOTE]
+> \\\\\\\*\\\\\\\*ADNI data is not included in this repository.\\\\\\\*\\\\\\\* See \\\\\\\[`DATA.md`](DATA.md) for how to request access.
 
-\\---
+\\\\---
 
 ## 🛠 Tech stack
 
@@ -153,14 +153,14 @@ flowchart LR
 
 |Layer|Tools|
 |:-:|-|
-|\*\*Model\*\*|PyTorch · MONAI · MedicalNet|
-|\*\*Data and evaluation\*\*|nibabel · scikit-learn · Weights \\\& Biases|
-|\*\*Backend\*\*|FastAPI · Pydantic|
-|\*\*Frontend\*\*|React · TypeScript · Tailwind CSS · Recharts · three.js|
+|\\\*\\\*Model\\\*\\\*|PyTorch · MONAI · MedicalNet|
+|\\\*\\\*Data and evaluation\\\*\\\*|nibabel · scikit-learn · Weights \\\\\\\& Biases|
+|\\\*\\\*Backend\\\*\\\*|FastAPI · Pydantic|
+|\\\*\\\*Frontend\\\*\\\*|React · TypeScript · Tailwind CSS · Recharts · three.js|
 
 </div>
 
-\\---
+\\\\---
 
 ## 🚀 Quick start
 
@@ -170,7 +170,7 @@ flowchart LR
 ```bash
 cd backend
 python -m venv .venv
-# Windows: .venv\\\\Scripts\\\\activate     macOS/Linux: source .venv/bin/activate
+# Windows: .venv\\\\\\\\Scripts\\\\\\\\activate     macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
@@ -190,7 +190,7 @@ npm run dev
 Create `frontend/.env`:
 
 ```
-VITE\\\_API\\\_URL=http://localhost:8000
+VITE\\\\\\\_API\\\\\\\_URL=http://localhost:8000
 ```
 
 </details>
@@ -200,7 +200,6 @@ VITE\\\_API\\\_URL=http://localhost:8000
 
 Place the trained weights file in `backend/weights/`, or set the environment variable described in `.env.example` to download them at startup.
 
-<!-- TODO: state the exact filename and where the weights are hosted -->
 
 </details>
 
@@ -287,7 +286,7 @@ NeuroFusion was designed and built by Team CODEVITALS:
 
 <h3>Abhinand C Varghese</h3>
 
-<a href="https://github.com/abhinandofficial"><img src="https://img.shields.io/badge/GitHub-abhinandofficial-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a>
+<a href="https://github.com/abhinandofficial"><img src="https://img.shields.io/badge/GitHub-abhinandofficial-181717?style=for-the-badge\&amp;logo=github\&amp;logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
@@ -299,9 +298,7 @@ NeuroFusion was designed and built by Team CODEVITALS:
 
 <h3>Varun G</h3>
 
-<!-- TODO: add Varun's GitHub badge, for example:
-
-<a href="https://github.com/varung-coder"><img src="https://img.shields.io/badge/GitHub-varungcoder-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a> -->
+<a href="https://github.com/varung-coder"><img src="https://img.shields.io/badge/GitHub-varung--coder-181717?style=for-the-badge\&amp;logo=github\&amp;logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
@@ -310,8 +307,6 @@ NeuroFusion was designed and built by Team CODEVITALS:
 </tr>
 
 </table>
-
-
 
 </div>
 
