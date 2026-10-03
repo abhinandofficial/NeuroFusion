@@ -272,7 +272,7 @@ NeuroFusion was designed and built by Team CODEVITALS:
 
 
 
-<h3>🧬 CODEVITALS</h3>
+<h3>🧬 CODE VITALS</h3>
 
 
 
