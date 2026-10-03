@@ -301,7 +301,7 @@ NeuroFusion was designed and built by Team CODEVITALS:
 
 <!-- TODO: add Varun's GitHub badge, for example:
 
-<a href="https://github.com/varung-coder"><img src="https://img.shields.io/badge/GitHub-varung-coder-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a> -->
+<a href="https://github.com/varung-coder"><img src="https://img.shields.io/badge/GitHub-varungcoder-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a> -->
 
 <br/><br/>
 
