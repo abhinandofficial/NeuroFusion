@@ -255,13 +255,11 @@ This project builds on an earlier research repository: [alzheimer-mri-progressio
 
 \---
 
-
-
-\## 👥 Team
+&#x20;👥 Team
 
 
 
-NeuroFusion was designed and built by \*\*Team CODEVITALS\*\*:
+NeuroFusion was designed and built by Team CODEVITALS:
 
 
 
@@ -297,7 +295,7 @@ NeuroFusion was designed and built by \*\*Team CODEVITALS\*\*:
 
 <!-- TODO: add Varun's GitHub badge, for example:
 
-<a href="https://github.com/USERNAME"><img src="https://img.shields.io/badge/GitHub-USERNAME-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a> -->
+<a href="https://github.com/varung-coder"><img src="https://img.shields.io/badge/GitHub-varung-coder-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub"/></a> -->
 
 <br/><br/>
 
@@ -313,7 +311,7 @@ NeuroFusion was designed and built by \*\*Team CODEVITALS\*\*:
 
 
 
-Team \*\*CODEVITALS\*\* · Built for the \*\*YODHA Hackathon\*\*.
+Team CODEVITALS · Built for the YODHA Hackathon.
 
 
 
