@@ -18,7 +18,7 @@
 
 <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="License"/>
 
-[**Overview**](#-overview) **·** [**Results**](#-results) **·** [**Architecture**](#-architecture) **·** [**Features**](#-features) **·** [**Quick start**](#-quick-start) **·** [**Limitations**](#️-limitations)
+[**Overview**](#-overview) **·** [**Results**](#-results) **·** [**Architecture**](#-architecture) **·** [**Features**](#-features)  **·** [**Limitations**](#️-limitations)
 
 </div>
 
