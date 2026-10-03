@@ -4,13 +4,19 @@
 
 <br/>
 
-!\[Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-!\[PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
-!\[FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-!\[React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-!\[TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-!\[Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge\&logo=threedotjs\&logoColor=white)
-!\[License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&amp;logo=python\&amp;logoColor=white" alt="Python"/>
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&amp;logo=pytorch\&amp;logoColor=white" alt="PyTorch"/>
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&amp;logo=fastapi\&amp;logoColor=white" alt="FastAPI"/>
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge\&amp;logo=react\&amp;logoColor=61DAFB" alt="React"/>
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&amp;logo=typescript\&amp;logoColor=white" alt="TypeScript"/>
+
+<img src="https://img.shields.io/badge/three.js-000000?style=for-the-badge\&amp;logo=threedotjs\&amp;logoColor=white" alt="Three.js"/>
+
+<img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="License"/>
 
 [**Overview**](#-overview) **·** [**Results**](#-results) **·** [**Architecture**](#-architecture) **·** [**Features**](#-features) **·** [**Quick start**](#-quick-start) **·** [**Limitations**](#️-limitations)
 
